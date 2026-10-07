@@ -1,0 +1,145 @@
+{
+  "_note": "Copied from dirasa-client src/app/globals.css (OKLCH converted to sRGB). Hex with alpha is CSS order #RRGGBBAA; Flutter's Color(0xAARRGGBB) puts alpha first.",
+  "radius": {
+    "base": 10,
+    "sm": 6,
+    "md": 8,
+    "lg": 10,
+    "xl": 14,
+    "2xl": 18,
+    "3xl": 22,
+    "4xl": 26
+  },
+  "light": {
+    "background": "#f8fafc",
+    "foreground": "#020618",
+    "card": "#ffffff",
+    "cardForeground": "#020618",
+    "popover": "#ffffff",
+    "popoverForeground": "#020618",
+    "primary": "#0084d1",
+    "primaryForeground": "#ffffff",
+    "secondary": "#f1f5f9",
+    "secondaryForeground": "#0f172b",
+    "muted": "#f1f5f9",
+    "mutedForeground": "#45556c",
+    "accent": "#f1f5f9",
+    "accentForeground": "#0f172b",
+    "destructive": "#e7000b",
+    "border": "#e2e8f0",
+    "input": "#cad5e2",
+    "ring": "#00a6f4",
+    "chart1": "#00a6f4",
+    "chart2": "#615fff",
+    "chart3": "#a684ff",
+    "chart4": "#00d3f2",
+    "chart5": "#8ec5ff"
+  },
+  "dark": {
+    "background": "#020618",
+    "foreground": "#f8fafc",
+    "card": "#0f172b",
+    "cardForeground": "#f8fafc",
+    "popover": "#0f172b",
+    "popoverForeground": "#f8fafc",
+    "primary": "#00a6f4",
+    "primaryForeground": "#020618",
+    "secondary": "#1d293d",
+    "secondaryForeground": "#f8fafc",
+    "muted": "#1d293d",
+    "mutedForeground": "#cad5e2",
+    "accent": "#1d293d",
+    "accentForeground": "#f8fafc",
+    "destructive": "#ff6467",
+    "border": "#ffffff1f",
+    "input": "#ffffff2e",
+    "ring": "#00bcff",
+    "chart1": "#00bcff",
+    "chart2": "#7c86ff",
+    "chart3": "#c4b4ff",
+    "chart4": "#53eafd",
+    "chart5": "#bedbff"
+  },
+  "frostedLight": {
+    "card": "#ffffffb8",
+    "muted": "#dbeafe73"
+  },
+  "frostedDark": {
+    "card": "#0f172b99",
+    "muted": "#ffffff0f"
+  },
+  "backdrop": {
+    "light": {
+      "gradient": [
+        "#f8fbff",
+        "#eef3ff",
+        "#e3ecff"
+      ],
+      "stops": [
+        0,
+        0.45,
+        1
+      ],
+      "angleDeg": 160,
+      "glows": [
+        {
+          "color": "#74d4ff",
+          "opacity": 0.35,
+          "position": "top-end"
+        },
+        {
+          "color": "#a3b3ff",
+          "opacity": 0.4,
+          "position": "bottom-start"
+        },
+        {
+          "color": "#ddd6ff",
+          "opacity": 0.4,
+          "position": "centre"
+        }
+      ]
+    },
+    "dark": {
+      "gradient": [
+        "#050914",
+        "#08102a",
+        "#0a1230"
+      ],
+      "stops": [
+        0,
+        0.55,
+        1
+      ],
+      "angleDeg": 160,
+      "glows": [
+        {
+          "color": "#00a6f4",
+          "opacity": 0.15,
+          "position": "top-end"
+        },
+        {
+          "color": "#615fff",
+          "opacity": 0.15,
+          "position": "bottom-start"
+        },
+        {
+          "color": "#8e51ff",
+          "opacity": 0.1,
+          "position": "centre"
+        }
+      ]
+    }
+  },
+  "primaryButtonGradient": [
+    "#00a6f4",
+    "#615fff"
+  ],
+  "statusBar": {
+    "light": "#f8fbff",
+    "dark": "#050914"
+  },
+  "fonts": {
+    "ui": "Geist",
+    "wordmark": "Alexandria (weight 800, letter-spacing -0.05em) \u2014 use the outlined logo files, not live text"
+  }
+}
